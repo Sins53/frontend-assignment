@@ -29,7 +29,7 @@ module.exports = {
         xxl: "1920px",
       },
       width: {
-        "product-list": "22rem",
+        "product-list": "25rem",
       },
     },
   },
