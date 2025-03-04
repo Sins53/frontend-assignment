@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import ProductList from "../components/ProductList";
 
 const PrivateLayout = () => {
   return (
@@ -7,7 +8,7 @@ const PrivateLayout = () => {
         <Outlet />
       </div>
       <div className="bg-wrapperCard scrollable shrink lg:w-product-list p-4 rounded-2xl order-1 lg:order-2">
-        Product List
+        <ProductList />
       </div>
     </div>
   );
