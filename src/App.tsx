@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import ProductList from "./components/ProductList";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import ProductDetails from "./components/ProductDetails";
+import ProductList from "./components/ProductList";
 
 const App: React.FC = () => {
   return (
@@ -21,7 +21,6 @@ const App: React.FC = () => {
             />
           </Routes>
         </div>
-
         {/* Right side: Product list */}
         <div
           style={{
